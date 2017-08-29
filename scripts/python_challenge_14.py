@@ -47,4 +47,4 @@ raw_data = "".join(raw_data_list) # join into single string
 output = Image.frombytes("RGB", (100,100), raw_data)
 output.save(os.getcwd() + "\\..\\resources\\pc14_output.jpg")
 
-# Picture of a cat ("and its name is Uzi. You'll hear from him later")
+# Picture of a cat ("and its name is uzi. You'll hear from him later")
